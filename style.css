@@ -1,0 +1,107 @@
+:root {
+    --primary-color: orange;
+    --card-border-radius: 
+    --card-title-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin: 3rem;
+}
+
+.card-container {
+    border: 1px solid #000;
+    max-width: 1200px;
+    /* width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 5rem;
+    /* background-color: var(--primary-color); */
+    gap: 2rem;
+}
+
+.card {
+/* border: ; */
+/* height: auto; */
+box-shadow: 0px 2px 4px #333;
+border-radius: var(--card-border-radius);
+}
+
+.card-link {
+    text-decoration: none;
+    height: 100%;
+    width: ;
+}
+
+.card-img {
+    width: 100%;
+    height: 33%;
+    /* border-radius: var(--card-border-radius); */
+    border-top-left-radius: var(--card-border-radius);
+    border-top-right-radius: var(--card-border-radius);
+
+}
+
+.card-body {
+    padding: 2rem;
+    flex-grow: ;
+}
+
+.card-category {
+
+}
+
+.card-title {
+    color: ;
+}
+
+.card-description {
+
+}
+
+.card-post-info {
+
+}
+
+.card-avatar {
+
+}
+
+.card-author {
+
+}
+
+.card-date {
+
+}
+
+
+@media (min-width: 700px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* margin: 2.5rem auto; */
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* margin: 2.5rem auto; */
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
